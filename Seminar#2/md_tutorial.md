@@ -6,4 +6,31 @@
 
 ## Как добавить таблицы
 
+В чистом Маркдауне нет синтаксиса для таблиц, а в GFM
+есть.
+```html
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+```
+Для красоты можно и по бокам линии нарисовать:
+```html
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+```
+Можно управлять выравниванием столбцов при помощи двоеточия.
+
+```html
+| Left-Aligned  | Center Aligned  | Right Aligned |
+|:------------- |:---------------:| -------------:|
+| col 3 is      | some wordy text | **$1600**     |
+| col 2 is      | centered        | $12           |
+| zebra stripes | are neat        | ~~$1~~        |
+```
+Внутри таблиц можно использовать ссылки, наклонный,
+жирный или зачеркнутый текст.
+
 ## Как добавить изображения
